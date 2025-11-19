@@ -1,5 +1,6 @@
 package net.banman.survivalevolved;
 
+import net.banman.survivalevolved.block.ModBlocks;
 import net.banman.survivalevolved.item.ModItems;
 import org.slf4j.Logger;
 
@@ -55,6 +56,7 @@ public class survivalevolved {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -74,6 +76,11 @@ public class survivalevolved {
             event.accept(ModItems.FLINT_DUST);
             event.accept(ModItems.TWIG);
             event.accept(ModItems.ROOT);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ROOTED_DIRT);
+            event.accept(ModBlocks.ROOTED_GRASS);
         }
     }
 

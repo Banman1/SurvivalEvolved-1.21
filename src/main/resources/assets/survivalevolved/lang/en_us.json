@@ -2,5 +2,8 @@
   "item.survivalevolved.flint_shard": "Flint Shard",
   "item.survivalevolved.flint_dust": "Flint Dust",
   "item.survivalevolved.twig": "Twig",
-  "item.survivalevolved.root": "Root"
+  "item.survivalevolved.root": "Root",
+
+  "block.survivalevolved.rooted_dirt": "Rooted Dirt",
+  "block.survivalevolved.rooted_grass": "Rooted Grass"
 }

@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "survivalevolved:block/rooted_grass_top",
+    "north": "survivalevolved:block/rooted_grass_side",
+    "south": "survivalevolved:block/rooted_grass_side",
+    "east": "survivalevolved:block/rooted_grass_side",
+    "west": "survivalevolved:block/rooted_grass_side",
+    "down": "minecraft:block/dirt"
+  }
+}
