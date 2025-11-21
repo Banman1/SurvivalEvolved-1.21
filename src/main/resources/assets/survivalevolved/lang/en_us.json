@@ -5,11 +5,13 @@
   "item.survivalevolved.root": "Root",
   "item.survivalevolved.raw_nickel": "Raw Nickel",
   "item.survivalevolved.nickel_ingot": "Nickel Ingot",
+  "item.survivalevolved.chisel": "Chisel",
 
   "block.survivalevolved.rooted_dirt": "Rooted Dirt",
   "block.survivalevolved.rooted_grass": "Rooted Grass",
   "block.survivalevolved.nickel_ore": "Nickel Ore",
 
   "creativetab.survivalevolved.natural_resources": "Natural Resources",
-  "creativetab.survivalevolved.blocks": "Blocks"
+  "creativetab.survivalevolved.blocks": "Blocks",
+  "creativetab.survivalevolved.tools_and_weapons": "Tools and Weapons"
 }

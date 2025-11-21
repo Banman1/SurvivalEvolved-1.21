@@ -1,5 +1,6 @@
 package net.banman.survivalevolved.item;
 
+import net.banman.survivalevolved.item.custom.ChiselItem;
 import net.banman.survivalevolved.survivalevolved;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -26,6 +27,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(32)));
 
 
     public static void register(IEventBus eventBus) {

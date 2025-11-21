@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ROOT);
                         output.accept(ModItems.RAW_NICKEL);
                         output.accept(ModItems.NICKEL_INGOT);
+                        output.accept(ModItems.CHISEL);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLOCKS_TAB = CREATIVE_MODE_TAB.register("blocks_tab",
@@ -37,7 +38,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ROOTED_DIRT);
                         output.accept(ModBlocks.NICKEL_ORE);
                     }).build());
-
 
 
     public static void register(IEventBus eventBus) {
