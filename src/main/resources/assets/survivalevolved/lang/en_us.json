@@ -3,6 +3,7 @@
   "item.survivalevolved.flint_dust": "Flint Dust",
   "item.survivalevolved.twig": "Twig",
   "item.survivalevolved.root": "Root",
+  "item.survivalevolved.roasted_root": "Roasted Root",
   "item.survivalevolved.raw_nickel": "Raw Nickel",
   "item.survivalevolved.nickel_ingot": "Nickel Ingot",
   "item.survivalevolved.chisel": "Chisel",
@@ -13,5 +14,5 @@
 
   "creativetab.survivalevolved.natural_resources": "Natural Resources",
   "creativetab.survivalevolved.blocks": "Blocks",
-  "creativetab.survivalevolved.tools_and_weapons": "Tools and Weapons"
+  "creativetab.survivalevolved.food": "Cooking & Food"
 }

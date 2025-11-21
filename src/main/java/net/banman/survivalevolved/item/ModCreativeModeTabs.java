@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -27,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_NICKEL);
                         output.accept(ModItems.NICKEL_INGOT);
                         output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.ROASTED_ROOT);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLOCKS_TAB = CREATIVE_MODE_TAB.register("blocks_tab",
