@@ -1,6 +1,7 @@
 package net.banman.survivalevolved;
 
 import net.banman.survivalevolved.block.ModBlocks;
+import net.banman.survivalevolved.item.ModCreativeModeTabs;
 import net.banman.survivalevolved.item.ModItems;
 import org.slf4j.Logger;
 
@@ -55,6 +56,8 @@ public class survivalevolved {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -76,11 +79,14 @@ public class survivalevolved {
             event.accept(ModItems.FLINT_DUST);
             event.accept(ModItems.TWIG);
             event.accept(ModItems.ROOT);
+            event.accept(ModItems.RAW_NICKEL);
+            event.accept(ModItems.NICKEL_INGOT);
         }
 
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.ROOTED_DIRT);
             event.accept(ModBlocks.ROOTED_GRASS);
+            event.accept(ModBlocks.NICKEL_ORE);
         }
     }
 

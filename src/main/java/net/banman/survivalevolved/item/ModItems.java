@@ -21,6 +21,13 @@ public class ModItems {
     public static final DeferredItem<Item> ROOT = ITEMS.register("root",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
+            () -> new Item(new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
 
